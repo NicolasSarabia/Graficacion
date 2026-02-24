@@ -16,8 +16,17 @@ function draw() {
  fill(255, 200, 0);
  circle(500, 80, 80);
 
+ //Los 3 circulos 
  fill(100, 150, 255);
-  circle(200, 100, 60);
-  circle(300, 100, 60);
-  circle(400, 100, 60);
+ circle(60, 100, 60);
+ circle(120, 100, 60);
+ circle(180, 100, 60);
+
+ //el triangulo
+ fill(255, 150, 100);
+ triangle(250, 250, 350, 250, 300, 163);
+
+ //Arco semicircular
+ fill(150, 255, 150);
+ arc(300, 350, 200, 200, PI, TWO_PI);
 }
