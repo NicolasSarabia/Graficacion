@@ -22,7 +22,7 @@ function draw() {
  circle(120, 100, 60);
  circle(180, 100, 60);
 
- //el triangulo
+ //el triangulo equilátero aproximado
  fill(255, 150, 100);
  triangle(250, 250, 350, 250, 300, 163);
 
